@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-gray-100">
+
+<section class="flex flex-col items-center">
+  <div id="timer" class="text-4xl font-bold text-center mb-4">00:00</div>
+  
+  <div class="flex justify-center items-center mb-4">
+    <input type="number" id="minutes" placeholder="Minutes" class="border p-2 mr-2">
+    <button id="startBtn" class="bg-blue-500 text-white px-4 py-2 rounded">Start</button>
+    <button id="resetBtn" class="bg-red-500 text-white px-4 py-2 rounded ml-2">Reset</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
